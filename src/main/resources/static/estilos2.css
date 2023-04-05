@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    /*background: #76b852;  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to right, #8DC26F, #76b852);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #8DC26F, #76b852); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url(micro5.jpg);
+
+}
+h1{
+    color:whitesmoke;
+    margin-left: 30px;
+}
+.login{
+    color:whitesmoke;
+    margin:100px;
+    margin-left: 100px;
+}
+.registro{
+    margin:100px;
+    margin-left:90px;
+    
+}
+form{
+    padding: 50px;
+    box-shadow: 0 0 6px 0 grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:700px;
+    
+}
+
+form .grupo{
+    position: relative;
+    margin:60px;
+    color:whitesmoke;
+
+}
+form .grupo2{
+    position: relative;
+    margin:60px;
+    color:whitesmoke;
+
+}
+
+form .grupo3{
+    position: relative;
+    margin:60px;
+    color:whitesmoke;
+    
+
+}
+
+input{
+    background:none;
+    color:whitesmoke;
+    border:none;
+    border-bottom: 1px solid whitesmoke;
+    font-size: 18px;
+    padding:5px;
+    width:100%;
+    display: block;
+}
+label{
+    color:whitesmoke;
+    font-size: 16px;
+    position:fixed;
+}
+button{
+    font-family: 'Open Sans', sans-serif;
+    border:none;
+    background-color:#2b2f2b95;
+    box-shadow: 0 0 6px 0 whitesmoke;
+    font-size: 15px;
+    padding:5px;
+    display:block;
+    margin-left: 34px;
+    width:80%;
+    color:whitesmoke;
+    margin-bottom: 10px;
+    cursor:pointer;
+
+}
+.registrar{
+    font-family: 'Open Sans', sans-serif;
+    border:none;
+    background-color:green;
+    box-shadow: 0 0 6px 0 whitesmoke;
+    font-size: 15px;
+    padding:5px;
+    display:block;
+    margin-left: 34px;
+    width:80%;
+    color:whitesmoke;
+    margin-bottom: 10px;
+    cursor:pointer;
+
+}
+
+/* Aquí para los productos*/
+.container{
+    max-width:1200px;
+    margin:auto;
+    overflow:auto;
+
+}
+.galeriaProd{
+    margin:5px;
+    box-shadow: 0 0 6px 0 whitesmoke;
+    float:left;
+    width:390px;
+}
+.galeriaProd img{
+    width: 100%;
+    height:auto;
+}
+.descrip{
+    padding: 15px;
+    text-align: center;
+    color:whitesmoke;
+
+}
+
+
+

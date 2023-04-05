@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+:root{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+.contenedor{
+    width: 90%;
+    max-width:1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+
+}
+header{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(22, 94, 16, 0.5) 0%, rgba(42, 217, 141, 0.5) 100%), url(micro4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+}
+.bx-menu{
+    position: fixed;
+    z-index: 10;
+    top:30px;
+    right:30px;
+    background-image: linear-gradient(to top, rgba(22, 94, 16, 0.5) 0%, rgba(42, 217, 141, 0.5) 100%);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.menu-navegacion{
+    position: fixed;
+    top:0;
+    right:0;
+    width: 20vw;
+    height:100%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background:#29472d95;
+    box-shadow: 0 0 6px rgba(0,0,0, .5);
+    transition: transform .3s ease-in-out;
+    transform: translate(110%);
+
+}
+.spread{
+    transform: translate(0);
+}
+.menu-navegacion a{
+    color:beige;
+    text-decoration: none;
+}
+.head{
+    padding:0;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items:center;
+    color:beige;
+    font-size: 2rem;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+
+.head a{
+    margin-top: 20px;
+    display: inline-block;
+    position: relative; 
+    width: 20%;
+    padding: .2em; 
+    background:#29472d95;
+    box-shadow: 0 0 6px 0 whitesmoke;
+    font-size: 0.75em;
+    color: white; 
+    text-decoration: none;
+}
+
+.subtitulo{
+    text-align: center;
+    font-weight: 300;
+    color:rgba(43, 124, 35, 0.63);
+    margin-bottom:  40px;
+    
+}
+.contenedor-objetivo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.checklist-objetivos a{
+    margin-top: 20px;
+    display: inline-block;
+    position: relative; 
+    width: 20%;
+    padding: .2em; 
+    background:rgb(255, 255, 255);
+    box-shadow: 0 0 6px 0 rgb(255, 255, 255);
+    font-size: 1.0em;
+    color:rgba(43, 124, 35, 0.63);; 
+    text-decoration: none;
+    align-items: center;
+
+}
+.checklist-objetivos{
+    width: 50%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.objetivo{
+    margin-bottom: 15px;
+}
+.nobjetivos{
+
+    color:rgba(43, 124, 35, 0.63);
+}
+.number{
+    display: inline-block;
+    width:15px;
+    height: 15px;
+    color:rgba(43, 124, 35, 0.63);
+}
+.galeria{
+    background-image: linear-gradient(to top, rgba(240, 243, 240, 0.517) 0%, rgba(236, 241, 239, 0.746) 100%);
+}
+.contenedor-galeria{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.contenedor-galeria a{
+    background-image: linear-gradient(to top, rgba(240, 243, 240, 0.517) 0%, rgba(236, 241, 239, 0.746) 100%);
+    box-shadow: 0 0 6px 0 whitesmoke;
+    font-size: 0.75em;
+    color:rgba(43, 124, 35, 0.63); 
+    font-size: 16px;
+    text-decoration: none;
+    padding:5px;
+    display:block;
+    margin-bottom: 10px;
+    cursor:pointer;
+    
+
+}
+
+.img-galeria{
+    width: 5%;
+    display: inline-block;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px 0 whitesmoke;
+}
+
+.sitios{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.tipos-sitios{
+    width: 30%;
+    text-align:center;
+}
+.tipos-sitios img{
+    width: 80%;
+}
+
+.nlugar{
+    margin-top: 20px;
+    width:100%;
+    
+}
+footer{
+    background-image: linear-gradient(to top, rgba(51, 100, 18, 0.517) 0%, rgba(13, 126, 58, 0.541) 100%);
+    padding-bottom: 0.1px;
+
+}
+
+.contactanos{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    color: beige;
+}
+.marca{
+    font-size: 30px;
+    text-align: left;
+
+}
+.social-media{
+    width:50%;
+    display:flex;
+}
+.social-media-icon{
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 50%;
+    color:beige
+}
+.social-media-icon:hover{
+    background: beige;
+    color:rgba(43, 124, 35, 0.63);
+}
+.social-media-icon i{
+    font-size: 30px;
+}

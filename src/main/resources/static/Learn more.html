@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Contacto</title>
+       <link rel="stylesheet" href="estilos2.css">
+       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400;1,600&display=swap" rel="stylesheet">
+
+
+    </head>
+    <body>
+        <form action ="" method="POST" id="form">
+            <div class="form">
+                <h1>Contacta con nosotros</h1>
+                <div class="grupo">
+                    <input type="text" name="name" id="name" required><span class="barra"></span>
+                    <label for="name">Tu nombre</label>
+                </div>
+                <div class="grupo">
+                    <input type="text" name="apellidos" id="apellidos" required><span class="barra"></span>
+                    <label for="apellidos">Tus apellidos</label>
+                </div>
+                <div class="grupo">
+                    <input type="email" name="email" id="email" required><span class="barra"></span>
+                    <label for="email">Tu correo electrónico</label>
+                </div>
+                <div class="grupo">
+                    <input type="mensaje" name="mensaje" id="mensaje" required><span class="barra"></span>
+                    <label for="mensaje">Tu mensaje</label>
+                </div>
+                <button type="submit" onclick="getUsuarios()">Enviar</button>
+
+            </div>
+        </form>
+
+        <script src="login.js"></script>
+        
+    </body>
+</html>
